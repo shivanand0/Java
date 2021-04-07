@@ -8,15 +8,6 @@ public class PalindromString{
         for(int i=str.length(); i>0; i--){
             revStr = revStr + str.charAt(i-1);
         }
-        
-        // String result = (oriStr == revStr) ? "Yes" : "No"; //returning flase always?
-        // String result;
-        // if(oriStr == revStr){
-        //     result = "YES";
-        // }
-        // else{
-        //     result = "NO";
-        // }
 
         return (oriStr.equals(revStr));
     }
