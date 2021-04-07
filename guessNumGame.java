@@ -1,11 +1,6 @@
 /*
     Create a class Game, which allows a user to play "Guess the Number"
-    game once. Game should have the following methods:
-    1. Constructor to generate the random number
-    2. takeUserInput() to take a user input of number
-    3. isCorrectNumber() to detect whether the number entered by the user is true
-    4. getter and setter for noOfGuesses
-    Use properties such as noOfGuesses(int), etc to get this task done!
+    game once.
 */
 import java.util.Random;
 import java.util.Scanner;
@@ -14,14 +9,6 @@ class Game{
     public int num; //number to guess
     public int inputNum; //user inputed number
     public int noOfGuesses = 0;
-
-    // public int getNoOfGuesses() {
-    //     return noOfGuesses;
-    // }
-
-    // public void setNoOfGuesses(int noOfGuesses) {
-    //     this.noOfGuesses = noOfGuesses;
-    // }
 
     Game(){ //constructor to generate random number upto 100
         Random rand = new Random();
